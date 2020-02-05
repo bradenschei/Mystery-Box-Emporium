@@ -20,9 +20,10 @@ body {
     letter-spacing: 0.1rem;
     color: white;
     background-color: rgba(0, 0, 0, 0.6) !important;
+    bottom: 678px !important;
 }
 .navbar-brand img{
-    height: 2rem;
+    height: 5rem;
 }
 .navbar-nav li {
     padding-right: .7rem;
@@ -33,7 +34,7 @@ body {
 }
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: #1ebba3;
+    color: #903749;
 }
 
 /*--- Landing Page ---*/
@@ -87,14 +88,15 @@ body {
     font-size: 1.2rem;
     padding: .6rem 1.2rem;
     margin: 1rem;
-    color: white;
-    background-color: #1ebba3;
-    border-color: #1ebba3;
+    color: gainsboro;
+    background-color: #903749;
+    border-color: #903749;
 }
 
 .btn-secondary:hover {
-    background-color: #189582;
-    border-color: #1ebba3;
+    background-color: #b74159;
+    border-color: #b8445a;
+    color: #efd4d9;
 }
 
 /* Features Section */
@@ -115,12 +117,12 @@ h3.heading {
 .heading-underline{
     width: 3rem;
     height: .2rem;
-    background-color: #1ebba3;
+    background-color: #903749;
     margin: 0 auto 2rem;
 }
 
 .feature svg.svg-inline--fa {
-color: #1ebba3;
+color: #903749;
 }
 
 .feature h3 {
@@ -158,12 +160,12 @@ margin-top: 1.5rem;
 }
 
 .blockquote .svg-inline--fa {
-    color: #1ebba3;
+    color: #903749;
     margin: 1rem;
 }
 
 .clients-hr {
-    border-top: .5rem solid #1ebba3;
+    border-top: .5rem solid #903749;
 }
 
 /* Contact Section */
