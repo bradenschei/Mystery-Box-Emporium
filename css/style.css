@@ -19,8 +19,7 @@ body {
     font-size: 0.9rem;
     letter-spacing: 0.1rem;
     color: white;
-    background-color: rgba(0, 0, 0, 0.6) !important;
-    bottom: 678px !important;
+    background-color: rgba(0, 0, 0, 0.85) !important;
 }
 .navbar-brand img{
     height: 5rem;
@@ -104,6 +103,11 @@ body {
     margin-bottom: 0;
     padding: 2rem 0 3.5rem;
     border-radius: 0;
+}
+
+#cat-btn {
+    padding-left: 575px;
+    padding-right: 550px;
 }
 
 h3.heading {
