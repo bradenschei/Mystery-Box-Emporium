@@ -26,10 +26,10 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" id="pill-style" href="index.html">Home</a>
+                        <a class="nav-link" id="pill-style" href="content.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" id="pill-style" href="catalog.html">Catalog</a>
+                        <a class="nav-link active" id="pill-style" href="catalog.php">Catalog</a>
                     </li>
                 </ul>
             </div>
