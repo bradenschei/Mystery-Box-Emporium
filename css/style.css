@@ -6,6 +6,12 @@ body {
     color: grey;
 }
 
+.Heading{
+    font-size: 3rem;
+    color: #b8445a;
+    font-weight: bold;
+}
+
 .offset:before{
     display: block;
     content: "";
@@ -203,7 +209,7 @@ color: #903749;
 
 /* Resources Section */
 .fixed {
-    background-image: url(../img/apple.png);
+    background-image: url(../img/Elon.jpg);
     z-index: -1;
 }
 .dark {

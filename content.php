@@ -6,8 +6,10 @@
         <br>
         <br>
         <br>
+        <div class="Heading"
         <h1>Mystery Box Emporium</h1>
         <p></p>
+    </div>
     </div>
 </div>
 <!--End Course Section-->
@@ -129,7 +131,7 @@
             <div class="col-md-6 clients">
                 <div class="row">
                     <div class="col-md-4">
-                        <img src="img/ShrekZowski.jpg">
+                        <img src="img/Morgan.jpg">
                     </div>
                     <div class="col-md-8">
                         <blockquote>
@@ -144,7 +146,7 @@
             <div class="col-md-6 clients">
                 <div class="row">
                     <div class="col-md-4">
-                        <img src="./Mystery-Box-Emporium/img/Elon.jpg">
+                        <img src="img/Elon.jpg">
                     </div>
                     <div class="col-md-8">
                         <blockquote>
@@ -160,25 +162,7 @@
         <br>
     </div>
 
-    <div class="col-12 narrow text-center" id="contact">
-        <br>
-        <br>
-        <br>
-        <br>
-        <p class="lead">Want to learn more about developing Bootsrap Themes?</p>
-        <a class="btn btn-secondary  btn-md" href="http://bit.ly/advanced-bootstrap-course" target="_blank">
-            Bootstrap Course
-        </a>
-        <p>
-            REEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
-            <br>
-            REEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
-            <br>
-            REEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
-        </p>
-        <br>
-    </div>
-</div>
+   
 <!--End Clients Section-->
 <!--Contact Include-->
 <?php include './inc/footer.php' ?>
