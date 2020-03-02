@@ -25,9 +25,15 @@
                 <li class="nav-item">
                     <a class="nav-link in-page" id="pill-style" href="content.php">Home</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="pill-style" href="catalog.php">Catalog</a>
-                </li>
+                <div class="nav-item dropdown">
+                    <button class="dropbtn" id="pill-style">Catalog</button>
+                    <div class="dropdown-content">
+                        <a href="#">Mystery</a>
+                        <a href="#">Outfits</a>
+                        <a href="#">Jewlery</a>
+                        <a href="#">Accessory</a>
+                    </div>
+                </div>
             </ul>
         </div>
     </nav>

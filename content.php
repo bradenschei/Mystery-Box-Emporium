@@ -6,7 +6,7 @@
         <br>
         <br>
         <br>
-        <h1>What is Mystery Box Emporium?</h1>
+        <h1>Mystery Box Emporium</h1>
         <p></p>
     </div>
 </div>
@@ -20,7 +20,7 @@
         <div class="narrow" style="margin-top: 0px;">
 
             <div class="col-12">
-                <h3 class="heading">Features</h3>
+                <h3 class="heading">HOW TO ACQUIRE A BOX</h3>
                 <div class="heading-underline">
                 </div>
             </div>
@@ -30,31 +30,31 @@
                 <div class="col-md-4">
                     <div class="feature">
                         <i class="fas fa-play-circle fa-4x" data-fa-transform="shrink-3 up-5"></i>
-                        <h3>Custom Animation</h3>
-                        <p>UwU UwU UwU UwUUwU UwU UwU UwUUwU UwU UwU UwUUwU UwU UwU UwUUwU UwU UwU UwU</p>
+                        <h3>BUY A BOX </h3>
+                        <p>Select what kind of box you would like</p>
                     </div>
                 </div>
 
                 <div class="col-md-4">
                     <div class="feature">
                         <i class="fas fa-sliders-h fa-4x" data-fa-transform="shrink-4.5 up-4.5"></i>
-                        <h3>Content Slider</h3>
-                        <p>UwU UwU UwU UwUUwU UwU UwU UwUUwU UwU UwU UwUUwU UwU UwU UwUUwU UwU UwU UwU</p>
+                        <h3>SHIP IT TO YOUR DOOR </h3>
+                        <p>The box will be delivered straight to your door within 3 - 5 business days</p>
                     </div>
                 </div>
 
                 <div class="col-md-4">
                     <div class="feature">
                         <i class="fab fa-wpforms fa-4x" data-fa-transform="shrink-4 up-5"></i>
-                        <h3>Contact Form</h3>
-                        <p>UwU UwU UwU UwUUwU UwU UwU UwUUwU UwU UwU UwUUwU UwU UwU UwUUwU UwU UwU UwU</p>
+                        <h3>ENJOY </h3>
+                        <p>Have fun wearing your new, stylish clothes from MBE</p>
                     </div>
                 </div>
 
             </div>
 
             <div class="col-12" id="cat-btn">
-                <a href="catalog.html" class="btn btn-lg btn-secondary btn-outline-light">
+                <a href="catalog.php" class="btn btn-lg btn-secondary btn-outline-light">
                     View Our Products
                 </a>
             </div>

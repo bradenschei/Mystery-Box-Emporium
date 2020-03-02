@@ -16,7 +16,7 @@
         <div class="landing">
             <div class="home-wrap">
                 <div class="home-inner">
-                </div>
+                </div> 
             </div>
         </div>
 
