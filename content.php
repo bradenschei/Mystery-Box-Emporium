@@ -29,7 +29,7 @@
 
                 <div class="col-md-4">
                     <div class="feature">
-                        <i class="fas fa-play-circle fa-4x" data-fa-transform="shrink-3 up-5"></i>
+                        <i class="fas fa-parachute-box fa-4x" data-fa-transform="shrink-3 up-5"></i>
                         <h3>BUY A BOX </h3>
                         <p>Select what kind of box you would like</p>
                     </div>
@@ -37,7 +37,7 @@
 
                 <div class="col-md-4">
                     <div class="feature">
-                        <i class="fas fa-sliders-h fa-4x" data-fa-transform="shrink-4.5 up-4.5"></i>
+                        <i class="fas fa-shipping-fast fa-4x" data-fa-transform="shrink-4.5 up-4.5"></i>
                         <h3>SHIP IT TO YOUR DOOR </h3>
                         <p>The box will be delivered straight to your door within 3 - 5 business days</p>
                     </div>
@@ -45,7 +45,7 @@
 
                 <div class="col-md-4">
                     <div class="feature">
-                        <i class="fab fa-wpforms fa-4x" data-fa-transform="shrink-4 up-5"></i>
+                        <i class="fas fa-trophy fa-4x" data-fa-transform="shrink-4 up-5"></i>
                         <h3>ENJOY </h3>
                         <p>Have fun wearing your new, stylish clothes from MBE</p>
                     </div>
@@ -129,7 +129,7 @@
             <div class="col-md-6 clients">
                 <div class="row">
                     <div class="col-md-4">
-                        <img src="img/client1.png">
+                        <img src="img/ShrekZowski.jpg">
                     </div>
                     <div class="col-md-8">
                         <blockquote>
@@ -144,7 +144,7 @@
             <div class="col-md-6 clients">
                 <div class="row">
                     <div class="col-md-4">
-                        <img src="img/client2.png">
+                        <img src="./Mystery-Box-Emporium/img/Elon.jpg">
                     </div>
                     <div class="col-md-8">
                         <blockquote>
