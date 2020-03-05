@@ -9,13 +9,14 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/fixed.css">
+    <link rel="stylesheet" href="css/catalog.css">
 </head>
 
 <body data-spy="scroll" data-target="#navbarResponsive">
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
         <a class="navbar-brand" href="content.php">
             <img src="img/Logo/logo_transparent.png">
-        </a>
+        </a> 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -23,15 +24,15 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto nav-pills">
                 <li class="nav-item">
-                    <a class="nav-link in-page" id="pill-style" href="content.php">Home</a>
+                    <a class="nav-link in-page" id="pill-style" href="content.php#home">Home</a>
                 </li>
                 <div class="nav-item dropdown">
                     <button class="dropbtn" id="pill-style">Catalog</button>
                     <div class="dropdown-content">
-                        <a href="#">Mystery</a>
-                        <a href="#">Outfits</a>
-                        <a href="#">Jewlery</a>
-                        <a href="#">Accessory</a>
+                        <a href="#mystery">Mystery</a>
+                        <a href="#outfits">Outfits</a>
+                        <a href="#jewlery">Jewlery</a>
+                        <a href="#access">Accessory</a>
                     </div>
                 </div>
             </ul>

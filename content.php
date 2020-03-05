@@ -65,7 +65,7 @@
     <!--End Jumbotron-->
 </div>
 <!--End Features Section-->
-
+ 
 <!--Start Resources Section-->
 <div id="resources" class="offset">
 
@@ -131,7 +131,7 @@
             <div class="col-md-6 clients">
                 <div class="row">
                     <div class="col-md-4">
-                        <img src="img/Morgan.jpg">
+                        <img src="img/Elon.jpg">
                     </div>
                     <div class="col-md-8">
                         <blockquote>
@@ -146,7 +146,7 @@
             <div class="col-md-6 clients">
                 <div class="row">
                     <div class="col-md-4">
-                        <img src="img/Elon.jpg">
+                        <img src="img/ShrekZowski.jpg">
                     </div>
                     <div class="col-md-8">
                         <blockquote>

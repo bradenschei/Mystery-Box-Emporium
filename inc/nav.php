@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Family Doesnt Love Me</title>
+    <title>Mystery Box Emporium</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/fixed.css">
@@ -31,12 +31,15 @@
                 <li class="nav-item">
                     <a class="nav-link in-page" id="pill-style" href="#clients">Clients</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link in-page" id="pill-style" href="#contact">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="pill-style" href="catalog.php">Catalog</a>
-                </li>
+                <div class="nav-item dropdown">
+                    <a href="catalog.php"><button class="dropbtn" id="pill-style">Catalog</button></a>
+                    <div class="dropdown-content">
+                        <a href="catalog.php#mystery">Mystery</a>
+                        <a href="catalog.php#outfits">Outfits</a>
+                        <a href="catalog.php#jewlery">Jewlery</a>
+                        <a href="catalog.php#access">Accessory</a>
+                    </div>
+                </div>
             </ul>
         </div>
     </nav>
