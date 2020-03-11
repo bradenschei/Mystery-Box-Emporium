@@ -74,33 +74,33 @@
         <div class="row dark text-center">
 
             <div class="col-12">
-                <h3 class="heading">Built With Care</h3>
+                <h3 class="heading">We use a variety of different brands.</h3>
                 <div class="heading-underline">
                 </div>
             </div>
 
             <div class="col-md-4">
-                <h3>HTML 5</h3>
+                <h3>Gucci</h3>
                 <div class="feature">
                     <i class="fas fa-code fa-3x"></i>
                 </div>
-                <p class=lead>REEEEEEEEEEEEEEEEEEEEEE</p>
+               
             </div>
 
             <div class="col-md-4">
-                <h3>BOOTSTRAP 4</h3>
+                <h3>Louis Vuitton</h3>
                 <div class="feature">
                     <i class="fas fa-bold fa-3x"></i>
                 </div>
-                <p class=lead>REEEEEEEEEEEEEEEEEEEEEE</p>
+               
             </div>
 
             <div class="col-md-4">
-                <h3>CSS 3</h3>
+                <h3>Ralph Polo Lauren</h3>
                 <div class="feature">
                     <i class="fab fa-css3 fa-3x"></i>
                 </div>
-                <p class=lead>REEEEEEEEEEEEEEEEEEEEEE</p>
+               
             </div>
         </div>
         <!--Row Dark-->
@@ -138,7 +138,7 @@
                             <i class="fas fa-quote-left"></i>
                             I struggle to shop online because of my specific tastes. Mystery Box Emporium is a great new
                             way to buy clothes. They offer a wide selection of clothing for everyone.
-                            <a href="client.php">Read More</a>
+                            <a href="client.php#elon-test">Read More</a>
                             <hr class="clients-hr">
                             <cite>&#8212; Elon, Long time friend of the company</cite>
                         </blockquote>
@@ -155,7 +155,7 @@
                             <i class="fas fa-quote-left"></i>
                             ...when I heard about my boys making this new company that sells clothing, I was thrilled. They sell top of the line products at a reasonable price.
                             Nothing makes me happier than going online and just spending all my money on these fun little mystery boxes.
-                            <a href="client.php">Read More</a>
+                            <a href="client.php#god-test">Read More</a>
                             <hr class="clients-hr">
                             <cite>&#8212; God, probably made the world</cite>
                         </blockquote>

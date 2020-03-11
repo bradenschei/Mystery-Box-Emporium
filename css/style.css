@@ -46,8 +46,35 @@ body {
     padding-top: 8px;
     margin-top: 4px;
     background-color: rgba(0, 0, 0, 0.1);
+    
 }
 
+.pill-btn {
+    color: white;
+    padding: 8px 16px;
+    font-size: 16px;
+    border: none;
+    font-family: 'Lato',sans-serif;
+    font-weight: 700;
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    background-color: #b74159 !important;
+    
+}
+
+#input-nav {
+    background-color: whitesmoke;
+    font-family: 'Lato', sans-serif;
+    border: 1px gainsboro solid;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.sign-form {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
 /* Drop Button */
  /* Dropdown Button */
  .dropbtn {
