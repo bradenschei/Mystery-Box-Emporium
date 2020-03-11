@@ -23,13 +23,13 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto nav-pills">
                 <li class="nav-item">
-                    <a class="nav-link in-page" id="pill-style" href="#home">Home</a>
+                    <a class="nav-link in-page" id="pill-style" href="content.php#home">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link in-page" id="pill-style" href="#resources">Resources</a>
+                    <a class="nav-link in-page" id="pill-style" href="content.php#resources">Resources</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link in-page" id="pill-style" href="#clients">Clients</a>
+                    <a class="nav-link in-page" id="pill-style" href="content.php#clients">Clients</a>
                 </li>
                 <div class="nav-item dropdown">
                     <a href="catalog.php"><button class="dropbtn" id="pill-style">Catalog</button></a>

@@ -1,3 +1,4 @@
+<?php include_once './inc/dbhandler.php'; ?>
 <?php include './inc/nav.php'; ?>
 
 <div class="offset" id="home">
@@ -6,10 +7,9 @@
         <br>
         <br>
         <br>
-        <div class="Heading"
-        <h1>Mystery Box Emporium</h1>
-        <p></p>
-    </div>
+        <div class="Heading" <h1>Mystery Box Emporium</h1>
+            <p></p>
+        </div>
     </div>
 </div>
 <!--End Course Section-->
@@ -55,7 +55,7 @@
 
             </div>
 
-            <div class="col-12" id="cat-btn">
+            <div class="col-12 text-center">
                 <a href="catalog.php" class="btn btn-lg btn-secondary btn-outline-light">
                     View Our Products
                 </a>
@@ -65,7 +65,7 @@
     <!--End Jumbotron-->
 </div>
 <!--End Features Section-->
- 
+
 <!--Start Resources Section-->
 <div id="resources" class="offset">
 
@@ -136,9 +136,11 @@
                     <div class="col-md-8">
                         <blockquote>
                             <i class="fas fa-quote-left"></i>
-                            REEEEEEEEEEEEEEEEEEEEEE
+                            I struggle to shop online because of my specific tastes. Mystery Box Emporium is a great new
+                            way to buy clothes. They offer a wide selection of clothing for everyone.
+                            <a href="client.php">Read More</a>
                             <hr class="clients-hr">
-                            <cite>&#8212; Eric, Small Business Owner</cite>
+                            <cite>&#8212; Elon, Long time friend of the company</cite>
                         </blockquote>
                     </div>
                 </div>
@@ -146,23 +148,31 @@
             <div class="col-md-6 clients">
                 <div class="row">
                     <div class="col-md-4">
-                        <img src="img/ShrekZowski.jpg">
+                        <img src="img/God.jpg">
                     </div>
                     <div class="col-md-8">
                         <blockquote>
                             <i class="fas fa-quote-left"></i>
-                            REEEEEEEEEEEEEEEEEEEEEE
+                            ...when I heard about my boys making this new company that sells clothing, I was thrilled. They sell top of the line products at a reasonable price.
+                            Nothing makes me happier than going online and just spending all my money on these fun little mystery boxes.
+                            <a href="client.php">Read More</a>
                             <hr class="clients-hr">
-                            <cite>&#8212; Rachel, Professional Photographer</cite>
+                            <cite>&#8212; God, probably made the world</cite>
                         </blockquote>
                     </div>
                 </div>
             </div>
+
+        </div>
+        <div class="col-12 text-center" id="cat-btn">
+            <a href="client.php" class="btn btn-lg btn-secondary btn-outline-light">
+                Check Out Some of Our Clients
+            </a>
         </div>
         <br>
     </div>
 
-   
-<!--End Clients Section-->
-<!--Contact Include-->
-<?php include './inc/footer.php' ?>
+
+    <!--End Clients Section-->
+    <!--Contact Include-->
+    <?php include './inc/footer.php' ?>

@@ -1,5 +1,6 @@
 <!--Nav Include-->
-<?php include './inc/catalog-nav.php' ?>
+<?php include_once './inc/dbhandler.php'; ?>
+<?php include './inc/catalog-nav.php'; ?>
 
 <br>
 <br>
@@ -22,7 +23,7 @@
                     <img src="img/client1.png" alt="Summer Clothing Box" class="picture">
                     <h3>Small box</h3>
                     <p>$9.99</p>
-                   
+
                 </div>
             </div>
 
@@ -50,13 +51,13 @@
 
     </div>
     <div class="col-12" id="cat-btn" style="left: 260px;">
-                <a href="#" class="btn btn-lg btn-secondary btn-outline-light">
-                    View Our Boxes
-                </a>
-            </div>
+        <a href="#" class="btn btn-lg btn-secondary btn-outline-light">
+            View Our Boxes
+        </a>
+    </div>
 
-    
-            </div>
+
+</div>
 </div>
 
 <!--End Jumbotron-->
@@ -101,10 +102,10 @@
 
         </div>
         <div class="col-12" id="cat-btn" style="left: 10px;">
-                <a href="#" class="btn btn-lg btn-secondary btn-outline-light">
-                    View Our Outfits
-                </a>
-            </div>
+            <a href="#" class="btn btn-lg btn-secondary btn-outline-light">
+                View Our Outfits
+            </a>
+        </div>
     </div>
 </div>
 <!--End Jumbotron-->
@@ -149,10 +150,10 @@
 
         </div>
         <div class="col-12" id="cat-btn" style="left: 10px;">
-                <a href="#" class="btn btn-lg btn-secondary btn-outline-light">
-                    View Our Jewlery
-                </a>
-            </div>
+            <a href="#" class="btn btn-lg btn-secondary btn-outline-light">
+                View Our Jewlery
+            </a>
+        </div>
 
     </div>
 </div>
@@ -198,10 +199,10 @@
 
         </div>
         <div class="col-12" id="cat-btn" style="left: 0px;">
-                <a href="#" class="btn btn-lg btn-secondary btn-outline-light">
-                    View Our Accesories
-                </a>
-            </div>
+            <a href="#" class="btn btn-lg btn-secondary btn-outline-light">
+                View Our Accesories
+            </a>
+        </div>
 
     </div>
 </div>
