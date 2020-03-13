@@ -12,7 +12,7 @@
             <div class="row">
                 <h1 class="mx-auto">Sign Up</h1>
             </div>
-            <form action="includes/./inc/login/signup.inc.php" method="post">
+            <form action="inc/login/signup.inc.php" method="post">
                 <div class="row sign-form">
                     <input type="text" name="uid" placeholder="Username" id="input-nav">
                 </div>

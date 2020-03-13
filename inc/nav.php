@@ -44,13 +44,13 @@
             <!--Login System-->
             <div class="ml-auto nav-pills nav-item">
                 <div class="row">
-                    <form action="includes/./inc/login/login.inc.php" method="POST">
+                    <form action="inc/login/login.inc.php" method="POST">
                         <input type="text" name="mailuid" placeholder="Username/Email" id="input-nav">
                         <input type="password" name="pwd" placeholder="Password" id="input-nav">
                         <button type=" submit" name="login-submit" id="pill-style" class="pill-btn">Login</button>
                     </form>
-                    <a href="SignUp.php" id="pill-style" class="nav-link in-page pill-btn">Sign Up</a>
-                    <form action="includes/./inc/login/logout.inc.php" method="POST">
+                    <a href="signup.php" id="pill-style" class="nav-link in-page pill-btn">Sign Up</a>
+                    <form action="inc/login/logout.inc.php" method="POST">
                         <button type="submit" name="logout-submit" id="pill-style" class="pill-btn">Logout</button>
                     </form>
                 </div>
