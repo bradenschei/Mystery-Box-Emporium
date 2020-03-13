@@ -50,7 +50,7 @@
                 <?php 
                     if (isset($_SESSION['userId'])) {
 
-                        echo "Welcome back, Dearest Customer!";
+                        echo '<div id="welcome-txt">Welcome back, Dearest Customer!</div>';
                         echo '<form action="inc/login/logout.inc.php" method="POST">
                                 <button type="submit" name="logout-submit" id="pill-style" class="pill-btn">Logout</button>
                               </form>';

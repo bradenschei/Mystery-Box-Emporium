@@ -1,6 +1,6 @@
 <?php
 if (isset($_POST['login-submit'])) {
-    require 'dbhandler.php';
+    require '../dbhandler.php';
 
     $mailuid = $_POST['mailuid'];
     $password = $_POST['pwd'];

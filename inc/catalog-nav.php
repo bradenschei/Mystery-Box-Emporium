@@ -22,7 +22,7 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto nav-pills">
+            <ul class="navbar-nav mr-auto nav-pills">
                 <li class="nav-item">
                     <a class="nav-link in-page" id="pill-style" href="content.php#home">Home</a>
                 </li>
