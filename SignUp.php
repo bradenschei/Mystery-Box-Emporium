@@ -53,6 +53,8 @@
                         </div>
                     </form>
                 </div>
+                <!-- Forgotten Password-->
+                <a href="reset-password.php">Forgot your password?</a>    
             </section>
         </div>   
     </div>
