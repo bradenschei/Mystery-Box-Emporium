@@ -26,6 +26,13 @@
                         </div>
 
                     </form>
+                    <?php 
+                      if (isset($_GET["reset"])) {
+                          if ($_GET["reset" == "success"]) {
+                              echo '<p class="signupsuccess>Check your email!</p>';
+                          }
+                      }
+                    ?>
                 </div>
             </section>
         <div>
