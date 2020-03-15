@@ -1,4 +1,13 @@
 <?php require './inc/nav.php' ?>
+<?php 
+
+require_once('PHPMailer/PHPMailerAutoload.php');
+
+$mail = new PHPMailer();
+$mail->isSMTP();
+$mail->SMTPAuth();
+
+?>
 
 <br>
 <br>
@@ -27,11 +36,11 @@
 
                     </form>
                     <?php 
-                      if (isset($_GET["reset"])) {
-                          if ($_GET["reset" == "success"]) {
-                              echo '<p class="signupsuccess>Check your email!</p>';
-                          }
-                      }
+                    if (isset($_GET["reset"])) {
+                        if ($_GET["reset"] == "success") {
+                            echo "<p>Check your email!</p>";
+                        }
+                    }
                     ?>
                 </div>
             </section>
