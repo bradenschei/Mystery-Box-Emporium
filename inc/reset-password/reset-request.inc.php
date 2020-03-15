@@ -49,12 +49,27 @@ if (isset($_POST['reset-request-submit'])) {
     request this reset, ignore this email</p>';
     $message .= '<p>Here is your password reset link: </br>';
     $message .= '<a href="' . $url .'">' . $url . '</a></p>';
+    $message .= '<br><br><p>Contact us here: mysteryboxemporium420@gmail.com</p>';
 
-    $headers = "From: Mystery Inc. <mysteryboxemporium69@gmail.com>\r\n";
-    $headers .= "Reply-To: mysteryboxemporium69@gmail.com\r\n";
-    $headers .= "Cotent-type: text/html\r\n";
+    require_once('PHPMailer/PHPMailerAutoload.php');
 
-    mail($to, $subject, $message, $headers);
+
+    $mail = new PHPMailer();
+    $mail->isSMTP();
+    $mail->SMTPAuth;
+    $mail->SMTPSecure = 'ssl';
+    $mail->Host = 'smtp.gmail.com';
+    $mail->Port = '465';
+    $mail->isHTML();
+    $mail->Username = 'mysteryboxemporium420@gmail.com';
+    $mail->Password = 'maintainable';
+    $mail->setFrom('no-reply@mysteryboxemporium.com');
+    $mail->Subject = $subject;
+    $mail->Body = $message;
+    $mail->addAddress($to);
+
+    $mail->Send();
+
 
     header("Location: ../../reset-password.php?reset=success");
     

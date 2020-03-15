@@ -1,13 +1,4 @@
 <?php require './inc/nav.php' ?>
-<?php 
-
-require_once('PHPMailer/PHPMailerAutoload.php');
-
-$mail = new PHPMailer();
-$mail->isSMTP();
-$mail->SMTPAuth();
-
-?>
 
 <br>
 <br>
