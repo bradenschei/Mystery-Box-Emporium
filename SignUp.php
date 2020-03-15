@@ -53,6 +53,15 @@
                         </div>
                     </form>
                 </div>
+                <!-- Forgotten Password-->
+                <?php 
+                if (isset($_GET["newpwd"])) {
+                    if ($_GET["newpwd"] == "passwordupdated") {
+                        echo '<p class="signupsuccess">Your password has been reset!</p>';
+                    }
+                }
+                ?>
+                <a href="reset-password.php">Forgot your password?</a>    
             </section>
         </div>   
     </div>
