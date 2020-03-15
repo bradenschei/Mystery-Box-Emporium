@@ -51,7 +51,7 @@ if (isset($_POST['reset-request-submit'])) {
     $message .= '<a href="' . $url .'">' . $url . '</a></p>';
     $message .= '<br><br><p>Contact us here: mysteryboxemporium420@gmail.com</p>';
 
-    require_once('../../PHPMailer/PHPMailerAutoload.php');
+    require_once('../PHPMailer/PHPMailerAutoload.php');
 
 
     $mail = new PHPMailer();
