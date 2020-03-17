@@ -16,7 +16,7 @@
 
 <body data-spy="scroll" data-target="#navbarResponsive">
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="#home">
+        <a class="navbar-brand" href="content.php#home">
             <img src="img/Logo/logo_transparent.png">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
@@ -62,7 +62,7 @@
                                 <input type="password" name="pwd" placeholder="Password" id="input-nav">
                                 <button type=" submit" name="login-submit" id="pill-style" class="pill-btn">Login</button>
                              </form>
-                             <a href="signup.php" id="pill-style" class="nav-link in-page pill-btn">Sign Up</a>';
+                             <a href="signup.php?click=true" id="pill-style" class="nav-link in-page pill-btn">Sign Up</a>';
                     }
                 ?>
                 </div>

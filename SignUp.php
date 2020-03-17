@@ -1,40 +1,37 @@
 <?php include "./inc/nav.php" ?>
 
-<br>
-<br>
-<br>
-<br>
 
-
-<main>
+<main class="downpush">
     <div class="container-fluid">
-        <div class="jumbotron d-flex justify-content-center">
-            <section class="section-default">
-                <div class="row">
+        <div class="jumbotron">
+            <section>
+                <div class="row signup-spacing">
                     <h1 class="mx-auto">Sign Up<br></h1>
                 </div>
                 <br>
-                <div class="row">
+                <div class="row row-fix signup-spacing">
                     <?php 
-                    if(isset($_GET['error'])) {
-                        if ($_GET['error'] == "emptyfields"){
+                    if(isset($_GET["error"])) {
+                        if ($_GET["error"] == "emptyfields"){
                             echo "<p class='signuperror'>Fill in all fields!</p>";
-                        } elseif ($_GET['error'] == "invailduidmail") {
+                        } elseif ($_GET["error"] == "invailduidmail") {
                             echo "<p class='signuperror'>Fill in Email and Username Field!</p>";
-                        } elseif ($_GET['error'] == "invalidmail") {
+                        } elseif ($_GET["error"] == "invalidmail") {
                             echo "<p class='signuperror'>Fill in Email Field!</p>";
-                        } elseif ($_GET['error'] == "invailduid") {
+                        } elseif ($_GET["error"] == "invailduid") {
                             echo "<p class='signuperror'>Fill in Username Field!</p>";
-                        } elseif ($_GET['error'] == "passwordcheck") {
+                        } elseif ($_GET["error"] == "passwordcheck") {
                             echo "<p class='signuperror'>Make sure you type your password correctly!</p>";
                         }
-                    } elseif ($_GET['signup'] == 'success') {
-                            echo "<p class='signuperror'>Signup Successful! Login is now avaliable!</p>";
-                    } 
+                    } elseif ($_GET["registration"] == "success") {
+                        echo "<p class='signupsuccess'>Signup Successful! Login is now avaliable!</p>";
+                    } elseif ($_GET["click"] == "true") {
+                        echo "";
+                    }
                     ?>
                 </div>
                 <br>
-                <div class="row" style="padding-left: 23px;">
+                <div class="row row-fix signup-spacing">
                     <form action="inc/login/signup.inc.php" method="post">
                         <div class="row sign-form">
                             <input type="text" name="uid" placeholder="Username" id="input-nav">
@@ -53,15 +50,17 @@
                         </div>
                     </form>
                 </div>
-                <!-- Forgotten Password-->
-                <?php 
-                if (isset($_GET["newpwd"])) {
-                    if ($_GET["newpwd"] == "passwordupdated") {
-                        echo '<p class="signupsuccess">Your password has been reset!</p>';
+                <div class="row-fix row signup-spacing">
+                    <!-- Forgotten Password-->
+                    <?php 
+                    if (isset($_GET["newpwd"])) {
+                        if ($_GET["newpwd"] == "passwordupdated") {
+                            echo '<p class="signupsuccess row-fix">Your password has been reset!</p>';
+                        }
                     }
-                }
-                ?>
-                <a href="reset-password.php">Forgot your password?</a>    
+                    ?>
+                    <a href="reset-password.php" id="pill-btn-forgot">Forgot your password?</a>    
+                </div>
             </section>
         </div>   
     </div>
