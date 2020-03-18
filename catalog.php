@@ -2,14 +2,16 @@
 <?php include_once './inc/dbhandler.php'; ?>
 <?php include './inc/catalog-nav.php'; ?>
 
-<br>
-<br>
-<br>
 
+<div class="jumbotron downpush">
+    <div class="row" id="search">
+        <form action="search.php" method="POST">
+            <input type="text" name="search" placeholder="Search">
+            <button type="submit" name="submit-search">SEARCH</button>
+        </form>    
+    </div>
 
-<div class="jumbotron">
     <div class="narrow" style="margin-top: 0px;">
-
         <div class="col-12">
             <h3 class="heading">Mystery Box</h3>
             <div class="heading-underline">

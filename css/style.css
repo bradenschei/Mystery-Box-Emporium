@@ -113,6 +113,11 @@ body {
     margin-top: 100px;
 }
 
+#search {
+    justify-content: right;
+    padding-right: 20px;
+}
+
 /* Drop Button */
  /* Dropdown Button */
  .dropbtn {
