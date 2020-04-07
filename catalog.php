@@ -7,8 +7,7 @@
     <div class="row" id="search">
         <form action="search.php" method="POST">
             <input type="text" name="search" placeholder="Search">
-            <button type="submit" name="submit-search" id="cat-btn" 
-            class="btn btn-lg btn-secondary btn-outline-light">SEARCH</button>
+            <button type="submit" name="submit-search" id="cat-btn" class="btn btn-lg btn-secondary btn-outline-light ">SEARCH</button>
         </form>    
     </div>
 
