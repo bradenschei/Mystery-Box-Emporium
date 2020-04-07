@@ -10,3 +10,8 @@
     background-color: #efeeee;
     margin: 20px;
 }
+
+.btn-center {
+    display: flex;
+    justify-content: center;
+}

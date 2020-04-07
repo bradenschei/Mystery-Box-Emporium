@@ -7,7 +7,8 @@
     <div class="row" id="search">
         <form action="search.php" method="POST">
             <input type="text" name="search" placeholder="Search">
-            <button type="submit" name="submit-search">SEARCH</button>
+            <button type="submit" name="submit-search" id="cat-btn" 
+            class="btn btn-lg btn-secondary btn-outline-light">SEARCH</button>
         </form>    
     </div>
 
@@ -52,8 +53,8 @@
         </div>
 
     </div>
-    <div class="col-12" id="cat-btn" style="left: 260px;">
-        <a href="#" class="btn btn-lg btn-secondary btn-outline-light">
+    <div class="col-12 row btn-center" id="cat-btn">
+        <a href="#" class="btn btn-lg btn-secondary btn-outline-light ">
             View Our Boxes
         </a>
     </div>
@@ -103,8 +104,8 @@
             </div>
 
         </div>
-        <div class="col-12" id="cat-btn" style="left: 10px;">
-            <a href="#" class="btn btn-lg btn-secondary btn-outline-light">
+        <div class="col-12 row btn-center" id="cat-btn" >
+            <a href="#" class="btn btn-lg btn-secondary btn-outline-light ">
                 View Our Outfits
             </a>
         </div>
@@ -151,8 +152,8 @@
         <div>
 
         </div>
-        <div class="col-12" id="cat-btn" style="left: 10px;">
-            <a href="#" class="btn btn-lg btn-secondary btn-outline-light">
+        <div class="col-12 row btn-center" id="cat-btn">
+            <a href="#" class="btn btn-lg btn-secondary btn-outline-light ">
                 View Our Jewlery
             </a>
         </div>
@@ -200,8 +201,8 @@
         <div>
 
         </div>
-        <div class="col-12" id="cat-btn" style="left: 0px;">
-            <a href="#" class="btn btn-lg btn-secondary btn-outline-light">
+        <div class=class="col-12 row btn-center" id="cat-btn">
+            <a href="#" class="btn btn-lg btn-secondary btn-outline-light ">
                 View Our Accesories
             </a>
         </div>
